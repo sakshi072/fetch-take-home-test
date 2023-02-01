@@ -11,6 +11,12 @@ The project consists of following files -
 * program.py - this is the main code that computes remaining points per payer after spending a target points
 * requirements.txt - file with all the packages and dependencies 
 
+## Python Installations 
+Install python and pip in your system. Below links can be used for the initial setup -
+- Macos- https://docs.python-guide.org/starting/install3/osx/ 
+- Linux - https://docs.python-guide.org/starting/install3/linux/
+- Windows - https://www.tutorialspoint.com/how-to-install-python-in-windows
+
 ## Executing the script 
 ```
 git clone https://github.com/sakshi072/fetch-take-home-test.git
