@@ -13,12 +13,14 @@ The project consists of following files -
 
 ## Executing the script 
 ```
+git clone https://github.com/sakshi072/fetch-take-home-test.git
+cd fetch-take-home-test
 pip3 install -r requirements.txt
 python3 program.py <spend_points>
 ```
 
-- first command installs all the packages and dependencies if any in this project
-- second command runs the python script with a spend_points (target amount) argument. 
+- pip3 command installs all the packages and dependencies if any in this project
+- python3 command runs the python script with a spend_points (target amount) argument. 
 <spend_points> is a commandline argument and can be passed when running the python script from the terminal. 
 
 
