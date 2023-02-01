@@ -23,6 +23,15 @@ python3 program.py <spend_points>
 - python3 command runs the python script with a spend_points (target amount) argument. 
 <spend_points> is a commandline argument and can be passed when running the python script from the terminal. 
 
+## Sample Output 
+```
+sakshitayal@Sakshis-MacBook-Pro fetch-take-home-test % python3 program.py 5000
+{'DANNON': 1000, 'UNILEVER': 0, 'MILLER COORS': 5300}
+```
+
+## Different Input 
+- Change points and payers in transactions.csv
+- Change spend_points in the commandline argument
 
 ## Code walkthrough 
 
