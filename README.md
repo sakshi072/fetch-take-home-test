@@ -15,10 +15,9 @@ The project consists of following files -
 ```
 pip3 install -r requirements.txt
 python3 program.py <spend_points>
-
 ```
 
-- first command installs are the packages and dependencies if any in this project
+- first command installs all the packages and dependencies if any in this project
 - second command runs the python script with a spend_points (target amount) argument. 
 <spend_points> is a commandline argument and can be passed when running the python script from the terminal. 
 
