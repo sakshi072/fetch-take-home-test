@@ -36,7 +36,7 @@ sakshitayal@Sakshis-MacBook-Pro fetch-take-home-test % python3 program.py 5000
 ## Code walkthrough 
 
 Code is divided into three parts - 
-1. the main function - it takes in the commandline argument, creats a nested list of all the transactions from the csv and runs the amount_spend function to output desired result. 
+1. the main function - it takes in the commandline argument, creates a nested list of all the transactions from the csv and runs the amount_spend function to output desired result. 
 2. reading_transactions function - it takes in the transactions.csv file's path, checks if the file exists. Next it skips the header line in the file and performs validation on the payer's name and points. If the payer's name and points are in the proper format, it stores each transaction in a nested list and return it. 
 3. amount_spend function - it takes in the nested transactions list and spend_points as input. It sorts the nested list on the timestamp field in the ascending order then performs following checks as -
 
